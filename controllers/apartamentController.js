@@ -59,7 +59,7 @@ export async function get (req, res) {
         if (!apartaments) {
             return res.status(ERROR.INVALID_DATA).json({
                 status: ERROR.INVALID_DATA,
-                message: 'Սխալ մատանիի սերիա:'
+                message: 'Սխալ սերիա:'
             })
         }
 
@@ -90,7 +90,7 @@ export async function update (req, res) {
             
             return res.status(ERROR.INVALID_DATA).json({
                 status: ERROR.INVALID_DATA,
-                message: 'Սխալ մատանիի սերիա:'
+                message: 'Սխալ սերիա:'
             })
         }
 
@@ -126,7 +126,7 @@ export async function remove (req, res) {
         if (!apartament) {
             return res.status(ERROR.INVALID_DATA).json({
                 status: ERROR.INVALID_DATA,
-                message: 'Սխալ մատանիի սերիա:'
+                message: 'Սխալ  սերիա:'
             })
         }
 
