@@ -16,9 +16,9 @@ export class ERR_MSG {
     static HEAD_IMAGE = 'Գլխավոր նակրի դաշտը պարտադիր է:'
     static IMAGE = 'Սխալ ֆայլի տեսակ է:'
     static COLLECTION = 'Հավաքածու դաշտը պարտադիր է:'
-    static SIZE = 'Չափս դաշտը պարտադիր է:'
-    static WEIGHT = 'Քաշը 0-ից ցածր չի կարող լինել:'
-    static REQUIRED_WEIGHT = 'Քաշ դաշտը պարտադիր է:'
+    static SIZE = ' պարտադիր է:'
+    static WEIGHT = ' լինել:'
+    static REQUIRED_WEIGHT = ' դաշտը պարտադիր է:'
     static PRICE = 'Գին դաշտը պետք է առնվազն 1 լինի:'
     static REQUIRED_PRICE = 'Գին դաշտը պարտադիր է:'
 }
